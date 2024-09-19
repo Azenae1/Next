@@ -7,3 +7,25 @@ body {
   background: #333;
   color: #fff;
 }
+
+.container {
+  padding: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  margin-left: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
