@@ -4,7 +4,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header>
-      <strong>Azenael</strong>
+      <strong>
+        <Link href="/">Azenael</Link>
+      </strong>
       <nav>
         <Link href="/">Main</Link>
         <Link href="/about">About</Link>
