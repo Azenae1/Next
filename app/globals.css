@@ -12,6 +12,15 @@ body {
   padding: 50px;
 }
 
+.post {
+  padding: 20px;
+  margin-top: 50px;
+  width: 500px;
+  border-radius: 5px;
+  background: #598191;
+  color: #000;
+}
+
 header {
   display: flex;
   justify-content: space-between;
