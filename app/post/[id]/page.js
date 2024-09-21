@@ -1,5 +1,9 @@
 import Post from "@/app/components/Post";
 
+export const metadata = {
+  title: "Post 1",
+};
+
 async function fetchData(id) {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts/" + id);
   const result = await res.json();
